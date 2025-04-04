@@ -1,0 +1,66 @@
+.about-us-container {
+    margin-top: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #e2e8f0;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .about-us-grid {
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+  }
+  
+  .about-us-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .about-us-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-button {
+    padding: 0.5rem;
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    width: 6rem;
+    height: 6rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav-button svg {
+    width: 3.5rem;
+    height: 3.5rem;
+    stroke: black;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .video-frame {
+    margin: 6rem;
+    width: 68rem;
+    height: 36rem;
+  }
+  
+  .meet-our-team {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+  
