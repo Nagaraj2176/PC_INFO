@@ -1,6 +1,6 @@
 import { useState } from "react";
-import AboutCard from "../components/AboutPageCard";
-import { AnimatedTestimonialsDemo } from '../components/AnimatedTestimonialDemo';
+import AboutCard from "../Components/AboutPageCard";
+import { AnimatedTestimonialsDemo } from '../Components/AnimatedTestimonialDemo';
 import "../static/AboutPage.css";
 
 export default function AboutPage()  {
